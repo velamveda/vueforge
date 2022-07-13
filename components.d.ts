@@ -6,6 +6,7 @@ import '@vue/runtime-core'
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     AppButton: typeof import('./src/components/AppButton.vue')['default']
+
     AppColorInput: typeof import('./src/components/AppColorInput.vue')['default']
     AppImage: typeof import('./src/components/AppImage.vue')['default']
     AppImageDropzone: typeof import('./src/components/AppImageDropzone.vue')['default']
@@ -22,6 +23,7 @@ declare module '@vue/runtime-core' {
     TheAlerts: typeof import('./src/components/TheAlerts.vue')['default']
     TheDrawer: typeof import('./src/components/TheDrawer.vue')['default']
     TheNavbar: typeof import('./src/components/TheNavbar.vue')['default']
+
   }
 }
 
